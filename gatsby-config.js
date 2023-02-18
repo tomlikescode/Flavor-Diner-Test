@@ -10,6 +10,7 @@ require("dotenv").config({
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/Flavor-Diner-Test",
   siteMetadata: {
     title: "Flavor Diner",
     description: "Recipes",
@@ -57,9 +58,6 @@ module.exports = {
           ],
         },
       },
-    },
-    {
-      pathPrefix: "/reponame",
     },
   ],
 }
