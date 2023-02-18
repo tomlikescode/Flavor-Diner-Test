@@ -50,7 +50,7 @@ function RotatingHero() {
           )
         })}
       </div>
-      <div className="recipes-word">recipes</div>
+      <div className="recipes-word">recipes!</div>
     </h4>
   )
 }

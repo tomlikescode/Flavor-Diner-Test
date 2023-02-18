@@ -386,6 +386,8 @@ form > *:last-child {
 }
 .nav-btn {
   padding: 0.15rem 0.75rem;
+  background-color: var(--backgroundColor);
+  color: var(--primary-500);
 }
 .nav-btn svg {
   font-size: 1.5rem;
@@ -605,6 +607,7 @@ form > *:last-child {
 }
 
 .hero-text h4 {
+  font-size: 1.25rem;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -720,6 +723,10 @@ form > *:last-child {
   .hero-text h1 {
     font-size: 4rem;
     margin-bottom: 0;
+  }
+
+  .hero-text h4 {
+    font-size: 1.563rem;
   }
 }
 

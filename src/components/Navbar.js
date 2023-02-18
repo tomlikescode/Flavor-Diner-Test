@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import { FaHamburger } from "react-icons/fa"
-import logo from "../assets/images/logo10.svg"
+import logo from "../assets/images/logo12.svg"
 
 const Navbar = () => {
   const [show, setShow] = useState(false)
