@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="page-footer">
       <p>
         &copy; {new Date().getFullYear()}
-        <span> Simple Recipies</span>. Built with{" "}
+        <span> Flavor Diner</span>. Built with{" "}
         <a href="https://www.gatsbyjs.com/">Gatsby</a>
       </p>
     </footer>

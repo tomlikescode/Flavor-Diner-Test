@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import AllRecipes from "../components/AllRecipes"
+import RotatingHero from "../components/RotatingHero"
 // import { useStaticQuery } from "gatsby"
 
 export const Head = () => (
@@ -26,7 +27,7 @@ export default function Home() {
           <div className="hero-container">
             <div className="hero-text">
               <h1>flavor diner</h1>
-              {/* <h4>no fluff, just recipes</h4> */}
+              <RotatingHero />
             </div>
           </div>
         </header>
