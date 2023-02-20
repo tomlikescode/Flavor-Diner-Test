@@ -353,27 +353,31 @@ form > *:last-child {
   width: 90vw;
   max-width: var(--max-width);
   /* background-color: #030303; */
+  /* background-color: black */
 }
 .nav-header {
-  height: 6rem;
+  /* height: 6rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav-logo {
-  /* font-family: neon; */
+  font-family: var(--bodyFont);
   font-size: 2rem;
   font-weight: bold;
   color: black;
+  text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.33);
   /* text-shadow: 0 0 0 transparent, 0 0 10px #e90fde,
     0 0 20px #e90fde, 0 0 40px #e90fde, 0 0 300px #e90fde,
     0 0 200px #e90fde, 0 0 300px #e90fde, 0 0 500px #e90fde; */
 }
 
 .nav-logo span {
-  color: #0c5206;
-  text-shadow: 0 0 0 transparent, 1px 1px 1px #15ff00;
+  color: #ea3c12;
+  font-weight: bold;
+  text-shadow: 3px 2px 3px rgba(234, 60, 18, 0.33);
+  /* text-shadow: 0 0 0 transparent, 1px 1px 1px #15ff00; */
   /* 20px 20px 20px #030303, 40px 40px 40px #030303, 300px 300px 300px #030303,
     200px 200px 200px #030303, 300px 300px 300px #030303, 500px 500px 500px #030303; */
 }
@@ -437,6 +441,7 @@ form > *:last-child {
     padding: 0;
     margin-right: 2rem;
     height: auto;
+    width: 50%;
   }
 
   .nav-header img {

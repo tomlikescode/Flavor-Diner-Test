@@ -10,10 +10,10 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="simply recipes" />
-            {/* <div className="nav-logo">
+            {/* <img src={logo} alt="flavor diner" /> */}
+            <div className="nav-logo" alt="flavor diner">
               <span>flavor</span> diner
-            </div> */}
+            </div>
           </Link>
           <button className="nav-btn" onClick={() => setShow(!show)}>
             <FaHamburger />
