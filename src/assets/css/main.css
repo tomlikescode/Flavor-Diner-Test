@@ -356,7 +356,7 @@ form > *:last-child {
   /* background-color: black */
 }
 .nav-header {
-  /* height: 6rem; */
+  height: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -390,8 +390,8 @@ form > *:last-child {
 }
 .nav-btn {
   padding: 0.15rem 0.75rem;
-  background-color: var(--backgroundColor);
-  color: var(--primary-500);
+  background-color: var(--primary-500);
+  color: var(--backgroundColor);
 }
 .nav-btn svg {
   font-size: 1.5rem;
@@ -809,7 +809,8 @@ form > *:last-child {
   line-height: 1;
   color: var(--textColor);
   font-weight: 600;
-  padding-left: 20px;
+  text-align: center;
+  /* padding-left: 20px; */
 }
 .recipe p {
   margin-bottom: 0;
@@ -817,7 +818,8 @@ form > *:last-child {
   color: var(--grey-800);
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  padding-left: 20px;
+  text-align: center;
+  /* padding-left: 20px; */
 }
 @media screen and (min-width: 576px) {
   .recipes-list {
