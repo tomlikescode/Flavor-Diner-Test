@@ -19,7 +19,7 @@ export default function Home() {
         <header className="hero">
           <StaticImage
             src="../assets/images/brick2.jpg"
-            alt="eggs"
+            alt="flavor diner"
             className="hero-img"
             placeholder="tracedSVG"
             layout="fullWidth"
