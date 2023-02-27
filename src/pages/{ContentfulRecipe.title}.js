@@ -39,7 +39,7 @@ const RecipeTemplate = ({ data }) => {
               className="about-img"
             />
             <article className="recipe-info">
-              <h2>{title}</h2>
+              <h1>{title}</h1>
               <p>{description}</p>
               {/* icons */}
               <div className="recipe-icons">

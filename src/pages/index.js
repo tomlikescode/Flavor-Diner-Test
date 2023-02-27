@@ -8,9 +8,18 @@ import RotatingHero from "../components/RotatingHero"
 export const Head = () => (
   <>
     <title>Flavor Diner</title>
-    <meta name="description" content="this is home page" />
+    <meta name="description" content="Your place for top notch recipes!" />
   </>
 )
+
+// export const onRenderBody = gatsbyUtils => {
+//   const { setHtmlAttributes } = gatsbyUtils
+//   setHtmlAttributes({ lang: "en" })
+// }
+
+// exports.onRenderBody = ({ setHtmlAttributes }) => {
+//   setHtmlAttributes({ lang: "en" })
+// }
 
 export default function Home() {
   return (
